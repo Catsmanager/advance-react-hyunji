@@ -1,1 +1,84 @@
+/* 색상 정의 */
+:root {
+    --primary-color: #0056b3; /* 주요 색상 */
+    --secondary-color: #6c757d; /* 보조 색상 */
+    --accent-color: #51A351; /* 강조 색상 */
+    --text-color: #333; /* 기본 텍스트 색상 */
+    --background-light: #f4f4f4; /* 배경용 밝은 색 */
+    --background-dark: #222; /* 배경용 어두운 색 */
+    --info-text: #555; /* 정보 텍스트 색상 */
+}
+
+/* 폰트 스타일 */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 16px;
+    color: var(--text-color);
+    background-color: var(--background-light);
+}
+
+h1, .text-wrapper {
+    font-size: 24px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+h2, .text-wrapper-2 {
+    font-size: 18px;
+    color: var(--secondary-color);
+    font-weight: normal;
+}
+
+p, .element {
+    font-size: 14px;
+    color: var(--info-text);
+    line-height: 1.5;
+}
+
+/* 링크 스타일 */
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--accent-color);
+}
+
+/* 이미지 및 아이콘 스타일 */
+img {
+    border-radius: 5px;
+}
+
+.icon-smile {
+    width: 20px;
+    height: 20px;
+}
+
+/* 구분선 스타일 */
+.vector {
+    height: 2px;
+    background-color: var(--secondary-color);
+}
+
+/* 섹션 및 배치 스타일 */
+.div-3, .view-2 {
+    background-color: var(--background-dark);
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contents-2, .contents-3 {
+    background-color: var(--background-light);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+.mt-1 { margin-top: 10px; }
+.mb-1 { margin-bottom: 10px; }
 

@@ -1,3 +1,11 @@
+:root {
+    --x-2e-6ff-2main: #0000ff;  
+    --f-3f-5fa: #f3f3f3;      
+    --d-9dbe-0: #9dbe00;       
+    --x-121314: #121314;        
+    --ffffff: #ffffff;        
+}
+
 .property-default {
   width: 595px;
   height: 842px;
